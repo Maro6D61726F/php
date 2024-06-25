@@ -90,3 +90,4 @@ if (!empty($_GET["name"] && $_GET["email"] && $_GET["Gender"] && $_GET["check"])
     echo "Selected courses: " . implode(', ', $selectedCourses) . "<br>";
     echo "agree: " . $_GET["check"] . "<br>";
 }
+?>
